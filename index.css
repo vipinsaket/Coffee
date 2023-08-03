@@ -1,0 +1,111 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sansita+Swashed:wght@500&family=Shadows+Into+Light&family=Syne+Mono&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(5545252.jpg);
+        background-position: center;
+        background-size: 100%;
+    }
+    
+    .header ul {
+        text-align: center;
+        overflow: auto;
+        margin: 0px 200px;
+        padding: 30px 0px;
+        float: right;
+        font-size: 26px;
+    }
+    
+    .logo image {
+        margin: 10px 20px;
+        padding: 5px 9px;
+        border: 3px solid red;
+    }
+    
+    .header ul :hover {
+        color: rgb(59 75 143);
+        border-bottom: #925a11;
+    }
+    
+    .header ul li {
+        text-align: center;
+        display: inline;
+        list-style: none;
+    }
+    
+    .header ul li a {
+        padding: 10px 30px;
+        text-decoration: none;
+        float: left;
+        color: aliceblue;
+    }
+    
+    .center {
+        color: white;
+        font-size: 30px;
+        height: 50px 60px;
+        width: 50px 20px;
+        padding-top: 160px;
+        margin-left: 160px;
+    }
+    
+    @keyframes slideleft {
+        0% {
+            transform: translate(100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+    
+    .center h3 {
+        font-family: 'Overpass', sans-serif;
+        animation: slideleft 1s linear forwards;
+    }
+    
+    .center p {
+        font-size: 30px;
+        color: #a1907c;
+        font-family: 'Dancing Script', cursive;
+        animation: slideleft 1.5s linear forwards;
+    }
+    
+    .get {
+        font-size: 15px;
+        padding-top: 70px;
+        margin-left: 160px;
+        text-decoration: none;
+    }
+    
+    .get :hover {
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    
+    .get li a {
+        background-color: #925a11;
+        padding: 10px 30px;
+        margin: 0px 0px;
+        float: left;
+        text-decoration: none;
+        color: #ffff;
+    }
+    
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+    
+    .logo img {
+        margin: 0px 120px;
+        width: 55%;
+    }
